@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harry Potter - charset</title>
+    <link rel="stylesheet" href="./src/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- шапка сайта -->
+    <header class="header">
+      <!-- контейнер для центрирования контента -->
+      <div class="conteiner">
+        <!-- заголовок сайта -->
+        <h1 class="title">Harry Potter</h1>
+        <!-- Параграф subtitle- описание сайта -->
+        <p class="">
+          View all <span class="marced">characters</span>from the Harry Potter
+          universe
+        </p>
+        <!-- Контейнер с инпутом -->
+        <div class="input-wrapper">
+          <!-- Контейнер с инпутом -->
+          <div class="input-inner">
+            <label class="input_label" for="">Name</label>
+            <!--  -->
+            <input
+              class="input input_text"
+              placeholder="Hermione"
+              type="text"
+            />
+          </div>
+          <div class="input-inner">
+            <!-- Лейбл для селектора -->
+            <label class="input_label" for="">School</label>
+            <!-- Селектор -->
+            <select class="input input_select" id="">
+              <!-- Варианты селектора -->
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Главный раздел сайта -->
+    <main>
+      <!-- Секция персонажей -->
+      <section class="characters"></section>
+      <div class="conteiner">
+        <div class="grid">
+          <article class="person">
+            <img
+              class="person_img"
+              loading="lazy"
+              src="./src/img/person001.webp"
+              alt="Person - picture"
+              srcset="./src/img/person001.webp 1x, ./src/img/person001.webp 2x"
+            />
+            <div class="person__info">
+              <srtong class="person_name">Draco Malfoy</srtong>
+              <p class="person__desc">Actor: Tom Felton</p>
+              <p class="person__desc">Gender: male</p>
+              <p class="person__desc">House: Slytherin</p>
+              <p class="person__desc">Wand core: unicon tai-hair</p>
+              <p class="person__desc">Alive: yes</p>
+            </div>
+          </article>
+          <article class="person">
+            <img
+              class="person_img"
+              loading="lazy"
+              src="./src/img/person001.webp"
+              alt="Person - picture"
+              srcset="./src/img/person001.webp 1x, ./src/img/person001.webp 2x"
+            />
+            <div class="person__info">
+              <srtong class="person_name">Draco Malfoy</srtong>
+              <p class="person__desc">Actor: Tom Felton</p>
+              <p class="person__desc">Gender: male</p>
+              <p class="person__desc">House: Slytherin</p>
+              <p class="person__desc">Wand core: unicon tai-hair</p>
+              <p class="person__desc">Alive: yes</p>
+            </div>
+          </article>
+          <article class="person">
+            <img
+              class="person_img"
+              loading="lazy"
+              src="./src/img/person001.webp"
+              alt="Person - picture"
+              srcset="./src/img/person001.webp 1x, ./src/img/person001.webp 2x"
+            />
+            <div class="person__info">
+              <srtong class="person_name">Draco Malfoy</srtong>
+              <p class="person__desc">Actor: Tom Felton</p>
+              <p class="person__desc">Gender: male</p>
+              <p class="person__desc">House: Slytherin</p>
+              <p class="person__desc">Wand core: unicon tai-hair</p>
+              <p class="person__desc">Alive: yes</p>
+            </div>
+          </article>
+          <article class="person">
+            <img
+              class="person_img"
+              loading="lazy"
+              src="./src/img/person001.webp"
+              alt="Person - picture"
+              srcset="./src/img/person001.webp 1x, ./src/img/person001.webp 2x"
+            />
+            <div class="person__info">
+              <srtong class="person_name">Draco Malfoy</srtong>
+              <p class="person__desc">Actor: Tom Felton</p>
+              <p class="person__desc">Gender: male</p>
+              <p class="person__desc">House: Slytherin</p>
+              <p class="person__desc">Wand core: unicon tai-hair</p>
+              <p class="person__desc">Alive: yes</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
